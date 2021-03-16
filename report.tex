@@ -16,8 +16,12 @@
 %      `\\//`   \\   \./    \\ /     //    \\./   \\   //   \\ |/ /
 %     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[fontset=windows,toc=true,type=bachelor,stage=opening,campus=shenzhen]{hithesisart}
-% 此处选项中不要有空格
+\documentclass[fontset=windows,toc=true,type=bachelor,stage=midterm,campus=shenzhen]{hithesisart}
+\usepackage{titletoc}\titlecontents{section}[0pt]{\addvspace{2pt}\filright}              
+{\contentspush{\thecontentslabel\ 
+}}              
+{}{\titlerule*[8pt]{.}\contentspage}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 必填选项
 % type=doctor|master|bachelor

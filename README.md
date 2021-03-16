@@ -1,4 +1,4 @@
-# 哈工大深圳开题报告模板
+# 哈工大深圳中期报告模板
 
 在 [hitesis](https://github.com/dustincys/hithesis/)模板上进行的修改，适配2020/11/3号深圳校区的新模板。
 
