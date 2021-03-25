@@ -252,7 +252,7 @@
     afterindent=true,
     beforeskip={26.25bp},%上下空0.5行
     afterskip={26.25bp},
-    format={\heiti\xiaosan[1.25]},
+    format={\centering\heiti\xiaosan[1.25]},
     aftername=\enspace,
     fixskip=true,
     break={},
@@ -416,11 +416,10 @@
   \noindent\parbox[b][6cm][t]{\textwidth}{\hit@bachelor@teachersign\underline{\makebox[3cm]{}}\hfill\hit@bachelor@checkdate\underline{\makebox[3cm]{}}}
 }
 
+\renewcommand\contentsname{目录}
 \renewcommand\tableofcontents{%
   \thispagestyle{empty}
-  \begin{center}
-    \heiti\xiaoer\textbf{目~~~~~~录}
-  \end{center}
+  \section*{\contentsname}%
   \normalsize\@starttoc{toc}
 }
 
